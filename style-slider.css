@@ -1,0 +1,77 @@
+.splide .splide__arrow--prev {
+    margin: 0;
+}
+
+.splide .splide__pagination {
+    position: absolute;
+    bottom: 130px;
+}
+
+.splide1 .splide__arrow--prev,
+.splide1 .splide__arrow--next {
+    top: 1680px;
+    position: relative;
+}
+
+.splide1 .splide__arrow--next {
+    top: 130px;
+    left: 460px;
+}
+
+.splide1 .splide__arrow--prev {
+    top: 162px;
+    left: -330px;
+}
+
+.splide1 .splide__pagination {
+    position: absolute;
+    top: 1880px;
+    
+}
+
+.splide__list  {
+    text-align: center;
+}
+
+.about-skills-block__ps-skill-icon {
+    margin-left: 430px;
+}
+
+.about-skills-block__ps-skill ul,
+.about-skills-block__ai-skill ul,
+.about-skills-block__ae-skill ul,
+.about-skills-block__figma-skill ul {
+    margin-left: 420px;
+}
+
+@media screen and (max-width: 767px) {
+
+     
+    #splide02 {
+        width: 316.5px;
+    }
+
+    .about-skills-block__ps-skill-icon {
+        margin-left: 115px;
+    }
+
+    .about-skills-block__ps-skill ul,
+    .about-skills-block__ai-skill ul,
+    .about-skills-block__ae-skill ul,
+    .about-skills-block__figma-skill ul {
+        margin-left: 110px;
+    }
+
+    .splide1 .splide__pagination {
+        top: 1590px;
+        left: 10px;
+    }
+
+    .splide1 .splide__arrow--prev {
+        left: -200px;
+    }
+
+    .splide1 .splide__arrow--next {
+        left: 190px;
+    }
+}
