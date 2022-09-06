@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.first-window {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 900px;
+    font-size: 50px;
+    border-radius: 20%;
+    font-family: sans-serif;
+    background-color: #58C730;
+}
+
+.coin-window {
+    display: none;
+}
+
+.coin-window--on {
+    display: block;
+    width: 400px;
+    background-color: #58C730;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.hello-span {
+    margin-bottom: 15px;
+}
+
+.hello-span {
+    color: white;
+}
+
+.btn {
+    padding: 10px;
+    border: 3px solid blueviolet;
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: bisque;
+    background-color: blueviolet;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.text {
+    color: bisque;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.credit--off {
+    display: none;
+}
+
+.credit--on {
+    display: block;
+}
+
+.ipot--off {
+    display: none;
+}
+
+.ipot--on {
+    display: block;
+}
+
+.nac--off {
+    display: none;
+}
+
+.nac--on {
+    display: block;
+}

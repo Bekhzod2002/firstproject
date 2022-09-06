@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lesson7</title>
+        <input type="button" value="Посчитать кредит" class="btn" onclick="showCreadit()">
+        <input type="button" value="Посчитать ипотеку" class="btn" onclick="showIpot()">
+        <input type="button" value="Посчитать накопление" class="btn" onclick="showNac()">
+        <div class="credit--off">
+            <span class="text">Мы вам может дать кредит с такой ставкой</span>
+            <select class="btn credit-stave">
+                <option value="9">9%</option>
+                <option value="12">12%</option>
+                <option value="15">15%</option>
+                <option value="23">23%</option>
+            </select>
+            <input type="number" value="" placeholder="На сколько лет" step="any" class="btn credit-year">
+            <input type="number" value="" placeholder="Какая сумма" class="btn credit-sum">
+            <input type="button" value="Посчитать" class="btn" onclick="getCredit()">
+            <input type="number" value="" readonly class="btn credit-result">
+        </div>
+        <div class="ipot--off">
+            <span class="text">Мы вам можем предоставить такую ставку годовых</span>
+            <select class="btn ipot-stave">
+                <option value="3">3%</option>
+                <option value="5.4">5.4%</option>
+                <option value="6">6%</option>
+                <option value="9">9%</option>
+            </select>
+            <input type="number" value="" placeholder="На сколько лет" step="any" class="btn ipot-year">
+            <input type="number" value="" placeholder="Какая сумма" class="btn ipot-sum">
+            <input type="button" value="Посчитать" class="btn" onclick="getIpot()">
+            <input type="number" value="" readonly class="btn ipot-result">
+        </div>
+        <div class="nac--off">
+            <span class="text">Мы вам можем предоставить такое накопление счёта годовых</span>
+            <select class="btn nac-stave">
+                <option value="5">5%</option>
+                <option value="9">9%</option>
+                <option value="11">11%</option>
+                <option value="12">12%</option>
+            </select>
+            <input type="number" value="" placeholder="На сколько лет" step="any" class="btn nac-year">
+            <input type="number" value="" placeholder="Какая сумма" class="btn nac-sum">
+            <input type="button" value="Посчитать" class="btn" onclick="getNac()">
+            <input type="number" value="" readonly class="btn nac-result">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
